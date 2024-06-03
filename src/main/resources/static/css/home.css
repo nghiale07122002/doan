@@ -1,5 +1,5 @@
 .main-content {
-    background: radial-gradient(farthest-side ellipse at 10% 0, #333867 20%, #17193b);
+    /*background: radial-gradient(farthest-side ellipse at 10% 0, #333867 20%, #17193b);*/
     width: 100%;
     padding-top: 65px;
 }
@@ -133,6 +133,7 @@ body::-webkit-resizer { background-color: white;}
 }
 
 .section-policy-item {
+    background-color: #738af7;
     cursor: pointer;
 }
 
@@ -148,7 +149,7 @@ body::-webkit-resizer { background-color: white;}
 .section-policy-title {
     font-size: 14px;
     margin-bottom: 10px;
-    color: white;
+    color: #000000;
     font-weight: 500;
 }
 
@@ -180,7 +181,7 @@ body::-webkit-resizer { background-color: white;}
     margin-bottom: 10px;
     font-weight: 500;
     text-transform: uppercase;
-    color: rgba(244, 244, 245, 0.9);
+    /*color: rgba(244, 244, 245, 0.9);*/
 
 }
 
@@ -306,7 +307,7 @@ body::-webkit-resizer { background-color: white;}
 .list-product-card .card-name {
     font-size: 20px;
     font-weight: 700;
-    color: white;
+    color: #000000;
     transition: all 0.5s ease;
     text-align: center;
     margin-top: 5px;
@@ -317,7 +318,7 @@ body::-webkit-resizer { background-color: white;}
 }
 
 .list-product-card .card-name:hover {
-    color: #ff214f;
+    color: #000000;
 }
 
 .list-product-card .card-description {
@@ -334,7 +335,7 @@ body::-webkit-resizer { background-color: white;}
 }
 
 .list-product-card .card-price {
-    color: white;
+    color: rgba(179, 231, 117, 0.81);
     font-size: 18px;
 }
 
@@ -351,12 +352,12 @@ body::-webkit-resizer { background-color: white;}
     border-radius: 0.5rem;
     border-width: 1px;
     padding: 0.5rem 0;
-    background-color: white;
+    background-color: #85e2a7;
     outline: none;
     min-width: 120px;
 }
 .brand-slide:hover {
-    background-color: white;
+    background-color: #ffffff;
 }
 
 .category-slide {
@@ -366,11 +367,10 @@ body::-webkit-resizer { background-color: white;}
     border-radius: 0.5rem;
     border-width: 1px;
     padding: 0.5rem 0.25rem 0.5rem 0.5rem;
-    background-color: white;
+    background-color: #85e2a7;
     outline: none;
     min-width: 120px;
 }
-
 .category-text {
     color: black;
     font-size: 14px;

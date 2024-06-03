@@ -71,26 +71,26 @@
                                                 </option>
                                             </select>
                                         </div>
-                                        <div style="width: 100%">
-                                            <select class="custom-select checkout-select" required id="district">
-                                                <option value="0" selected disabled>Chọn quận/huyện</option>
-                                                <option value="1" selected disabled>Chọn quận 1</option>
-                                                <option value="2" selected disabled>Chọn quận 3</option>
-                                                <option value="3" selected disabled>Chọn quận 4</option>
-                                                <option value="4" selected disabled>Chọn quận 5</option>
-                                            </select>
-                                        </div>
+<!--                                        <div style="width: 100%">-->
+<!--                                            <select class="custom-select checkout-select" required id="district">-->
+<!--                                                <option value="0" selected disabled>Chọn quận/huyện</option>-->
+<!--                                                <option value="1" selected disabled>Chọn quận 1</option>-->
+<!--                                                <option value="2" selected disabled>Chọn quận 3</option>-->
+<!--                                                <option value="3" selected disabled>Chọn quận 4</option>-->
+<!--                                                <option value="4" selected disabled>Chọn quận 5</option>-->
+<!--                                            </select>-->
+<!--                                        </div>-->
                                     </div>
                                     <div class="mb-4 d-flex justify-content-center align-items-center" style="gap: 24px">
-                                        <div style="width: 100%">
-                                            <select class="custom-select checkout-select" name="ward" required id="ward">
-                                                <option value="" selected disabled>Chọn phường/xã</option>
-                                                <option value="1" selected disabled>Chọn phường 1</option>
-                                                <option value="2" selected disabled>Chọn phường 3</option>
-                                                <option value="3" selected disabled>Chọn phường 4</option>
-                                                <option value="4" selected disabled>Chọn phường 5</option>
-                                            </select>
-                                        </div>
+<!--                                        <div style="width: 100%">-->
+<!--                                            <select class="custom-select checkout-select" name="ward" required id="ward">-->
+<!--                                                <option value="" selected disabled>Chọn phường/xã</option>-->
+<!--                                                <option value="1" selected disabled>Chọn phường 1</option>-->
+<!--                                                <option value="2" selected disabled>Chọn phường 3</option>-->
+<!--                                                <option value="3" selected disabled>Chọn phường 4</option>-->
+<!--                                                <option value="4" selected disabled>Chọn phường 5</option>-->
+<!--                                            </select>-->
+<!--                                        </div>-->
                                         <div style="width: 100%">
                                             <input type="text" class="form-control checkout-input" id="specificAddress" name="specificAddress" placeholder="Số nhà, ngõ, tên đường..." required/>
                                             <span th:if="${#fields.hasErrors('specificAddress')}" th:errors="*{specificAddress}"  class="form-valid-feedback"></span>

@@ -48,7 +48,7 @@
     font-size: 30px;
     font-weight: 700;
     transition: all 0.5s ease;
-    color: rgba(244, 244, 245, 0.9);
+    color: rgba(0, 0, 0, 0.9);
     cursor: pointer;
 }
 
@@ -88,7 +88,7 @@
 
 .detail-summary-short-desc {
     margin-bottom: 20px;
-    color: rgba(244, 244, 245, 0.9);
+    color: rgba(0, 0, 0, 0.9);
 }
 
 .detail-summary-wrapper-qlt {
@@ -120,7 +120,7 @@
     margin: 0;
     position: relative;
     box-shadow: none;
-    border: 1px solid #d9d9d9;
+    border: 1px solid #000000;
 }
 
 .detail-summary-wrapper-qlt button:first-child {
@@ -141,7 +141,7 @@
     content: '';
     width: 1rem;
     height: 2px;
-    background-color: white;
+    background-color: #000000;
     transform: translate(-50%, -50%);
 }
 .detail-summary-wrapper-qlt button.plus:after {
@@ -153,9 +153,9 @@
     border: none;
     font-weight: bold;
     text-align: center;
-    color: white;
+    color: #000000;
     height: 35px;
-    border: 1px solid #d9d9d9;
+    border: 1px solid #000000;
     border-right: 0;
     border-left: 0;
     background: transparent;
@@ -277,7 +277,7 @@
 }
 
 .detail-summary-meta-categories .meta-data {
-    color: #bbbbbb;
+    color: #000000;
     font-size: 15px;
 }
 
@@ -297,7 +297,7 @@
     border: 0;
     outline: none;
     cursor: pointer;
-    color: rgba(244, 244, 245, 0.9);
+    color: rgba(0, 0, 0, 0.9);
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
@@ -310,7 +310,7 @@
 }
 
 .tab-item {
-    color: rgba(244, 244, 245, 0.9);
+    color: rgba(0, 0, 0, 0.9);
 }
 
 #tab-review {

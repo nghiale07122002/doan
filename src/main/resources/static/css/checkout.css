@@ -9,7 +9,7 @@ body::-webkit-resizer { background-color: #666;}
 .checkout-main {
     padding: 70px 70px 30px 70px;
     gap: 24px;
-    color: #fff;
+    color: #000000;
 }
 
 .checkout-info {
@@ -21,14 +21,14 @@ body::-webkit-resizer { background-color: #666;}
     background-color: #1b194f;
     box-shadow: 0 3px 1px -2px #00000033, 0 2px 2px 0 #00000024, 0 1px 5px 0 #0000001f;
     border-radius: 6px;
-    color: #fff;
+    color: #ffffff;
     height: 100%;
     padding-bottom: 30px;
 }
 
 .checkout-info-main {
     background-color: transparent;
-    color: #fff;
+    color: #000000;
 }
 
 .checkout-title {
@@ -43,12 +43,12 @@ body::-webkit-resizer { background-color: #666;}
 
 .checkout-input {
     font-size: 15px;
-    background-color: rgba(0, 0, 0, 0.24);
-    color: rgba(244, 244, 245, 0.9);
+    background-color: rgba(255, 255, 255, 0.24);
+    color: rgba(0, 0, 0, 0.9);
     padding: 10px 15px;
     height: 45px;
     border-radius: 6px;
-    border: 0;
+    border: 1px solid black;
     outline: none;
 }
 
@@ -64,7 +64,7 @@ body::-webkit-resizer { background-color: #666;}
 
 .checkout-form label {
     font-weight: 400;
-    color: rgba(244, 244, 245, 0.9);
+    color: rgba(0, 0, 0, 0.9);
     font-size: 15px;
 }
 
@@ -92,25 +92,25 @@ body::-webkit-resizer { background-color: #666;}
 
 .checkout-select {
     font-size: 15px;
-    background-color: rgba(0, 0, 0, 0.24);
-    color: rgba(244, 244, 245, 0.9);
+    /*background-color: rgba(0, 0, 0, 0.24);*/
+    color: rgba(0, 0, 0, 0.9);
     padding: 10px 15px;
     height: 45px;
     border-radius: 6px;
-    border: 0;
+    border: 1px solid black;
     outline: none;
 }
 
 .checkout-input::placeholder {
-    color: rgba(244, 244, 245, 0.9);
+    color: rgba(0, 0, 0, 0.9);
 }
 
 .checkout-select:focus , .checkout-input:focus {
-    border: none;
-    outline: none;
+    /*border: none;*/
+    outline: solid;
+    /*background-color: rgba(255, 255, 255, 0.24);*/
     box-shadow: none;
-    background-color: rgba(0, 0, 0, 0.24);
-    color: rgba(244, 244, 245, 0.9);
+    color: rgba(0, 0, 0, 0.9);
 }
 
 .checkout-payment-main {
@@ -165,7 +165,7 @@ body::-webkit-resizer { background-color: #666;}
 }
 
 .radio-payment-control span {
-    color: white;
+    color: #000000;
     font-size: 16px;
     font-weight: 400;
     margin-left: 12px;
@@ -197,7 +197,7 @@ body::-webkit-resizer { background-color: #666;}
 
 .checkout-cart .cart-item-name, .checkout-cart .cart-item-price, .checkout-cart .cart-item-sum,
 .checkout-cart input.detail-summary-qlt, .checkout-cart .btn-qlt a, .checkout-cart .cart-sum-number{
-    color: white;
+    color: #ffffff;
     line-height: 1.375rem;
     letter-spacing: .0071428571em;
 }
